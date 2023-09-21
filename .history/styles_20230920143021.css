@@ -1,0 +1,47 @@
+body {
+    background-color: #0a0c1b;
+    font-family: 'Inter', sans-serif;
+    color: #fbfbfe;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.card {
+    background-color: #1c1938;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+}
+
+.card-content {
+    display: grid;
+    text-align: center;
+    padding: 3em;
+}
+
+.card-content span {
+    color: #a75ad9;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-img {
+    background: #a75ad9;
+    background-image: url(./images/image-header-desktop.jpg);
+}
+
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 45%, 44%); }

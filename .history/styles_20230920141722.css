@@ -1,0 +1,33 @@
+body {
+    background-color: #0a0c1b;
+    font-family: 'Inter', sans-serif;
+    color: #fbfbfe;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    width: 50%;
+}
+
+.card {
+    background-color: #1c1938;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-content {
+    display: grid;
+    text-align: center;
+}
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 45%, 44%); }

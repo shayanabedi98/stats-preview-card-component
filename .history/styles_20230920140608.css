@@ -1,0 +1,12 @@
+body {
+    background-color: #0a0c1b;
+    font-family: 'Inter', sans-serif;
+    color: #fbfbfe;
+}
+
+.card {
+    display: grid;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

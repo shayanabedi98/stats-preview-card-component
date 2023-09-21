@@ -1,0 +1,71 @@
+body {
+    background-color: #0a0c1b;
+    font-family: 'Inter', sans-serif;
+    color: #fbfbfe;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    width: 71%;
+    margin-left: 14.5%;
+}
+
+.card {
+    background-color: #1c1938;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 38em;
+}
+
+.card-content {
+    display: grid;
+    text-align: center;
+    padding: 4em;
+}
+
+h1 {
+    text-align: start;
+}
+
+h2 {
+    text-align: start;
+}
+
+h3 {
+    text-align: start;
+}
+
+p {
+    text-align: start;
+    line-height: 1.7em;
+    font-size: 1.5em;
+}
+
+.card-content span {
+    color: #a75ad9;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-img {
+    background-color: #a75ad9;
+    height: 38em;
+}
+
+.card-img img {
+    height: 38em;
+    opacity: .5;
+}
+
+
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 45%, 44%); }
