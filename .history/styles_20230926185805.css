@@ -149,6 +149,7 @@ p {
         grid-template-columns: none;
         height: 100%;
         min-width: initial;
+        width: 200px;
     }
 
     .card-content {

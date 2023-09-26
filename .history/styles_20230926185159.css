@@ -151,10 +151,6 @@ p {
         min-width: initial;
     }
 
-    .card-content {
-        padding: 30px 25px;
-    }
-
     .card-img {
         order: -1;
         background-size:auto ;
@@ -168,24 +164,5 @@ p {
 }
 
 @media (max-width: 376px) {
-    h1 {
-        font-size: 1.6em;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-    h3 {
-        font-size: 0.7em;
-        text-align: center;
-    }
-
-    p {
-        font-size: 0.9em;
-        text-align: center;
-    }
+    
 }

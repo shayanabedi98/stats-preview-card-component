@@ -152,7 +152,7 @@ p {
     }
 
     .card-content {
-        padding: 30px 25px;
+        padding: 30px 30px;
     }
 
     .card-img {
@@ -169,9 +169,8 @@ p {
 
 @media (max-width: 376px) {
     h1 {
-        font-size: 1.6em;
+        font-size: 1.4em;
         text-align: center;
-        margin-bottom: 20px;
     }
 
     h2 {
@@ -180,12 +179,12 @@ p {
     }
 
     h3 {
-        font-size: 0.7em;
+        font-size: 0.8em;
         text-align: center;
     }
 
     p {
-        font-size: 0.9em;
+        font-size: 0.8em;
         text-align: center;
     }
 }
